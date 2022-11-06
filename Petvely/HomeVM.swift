@@ -18,11 +18,14 @@ class HomeVM : ObservableObject {
     @Published var boundaryString: String = ""
     
     
+    
     init(){
         $boundary
             .removeDuplicates()
             .map{ "\($0)" }
             .assign(to: \.boundaryString, on: self)
             .store(in: &subscriptions)
+        
+
     }
 }

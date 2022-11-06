@@ -15,6 +15,9 @@
 		E0BB3F4B29162F1E00ADD7DF /* GroomerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB3F4A29162F1E00ADD7DF /* GroomerCardView.swift */; };
 		E0BB3F4D29162F3E00ADD7DF /* ViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB3F4C29162F3E00ADD7DF /* ViewExtention.swift */; };
 		E0BB3F4F2916301500ADD7DF /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB3F4E2916301500ADD7DF /* HomeVM.swift */; };
+		E0BB3F5129164C4B00ADD7DF /* GroomerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB3F5029164C4B00ADD7DF /* GroomerDetailView.swift */; };
+		E0BB3F532916767100ADD7DF /* ReservationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB3F522916767100ADD7DF /* ReservationButton.swift */; };
+		E0BB3F552917ADC000ADD7DF /* GroomerLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB3F542917ADC000ADD7DF /* GroomerLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		E0BB3F4A29162F1E00ADD7DF /* GroomerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroomerCardView.swift; sourceTree = "<group>"; };
 		E0BB3F4C29162F3E00ADD7DF /* ViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtention.swift; sourceTree = "<group>"; };
 		E0BB3F4E2916301500ADD7DF /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		E0BB3F5029164C4B00ADD7DF /* GroomerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroomerDetailView.swift; sourceTree = "<group>"; };
+		E0BB3F522916767100ADD7DF /* ReservationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationButton.swift; sourceTree = "<group>"; };
+		E0BB3F542917ADC000ADD7DF /* GroomerLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroomerLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 				E0BB3F4A29162F1E00ADD7DF /* GroomerCardView.swift */,
 				E0BB3F4C29162F3E00ADD7DF /* ViewExtention.swift */,
 				E0BB3F4E2916301500ADD7DF /* HomeVM.swift */,
+				E0BB3F5029164C4B00ADD7DF /* GroomerDetailView.swift */,
+				E0BB3F522916767100ADD7DF /* ReservationButton.swift */,
+				E0BB3F542917ADC000ADD7DF /* GroomerLocation.swift */,
 			);
 			path = Petvely;
 			sourceTree = "<group>";
@@ -149,11 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BB3F532916767100ADD7DF /* ReservationButton.swift in Sources */,
 				E0BB3F4B29162F1E00ADD7DF /* GroomerCardView.swift in Sources */,
 				E0BB3F4929162EF400ADD7DF /* HomeView.swift in Sources */,
 				E0BB3F3D29162EC500ADD7DF /* ContentView.swift in Sources */,
 				E0BB3F4F2916301500ADD7DF /* HomeVM.swift in Sources */,
+				E0BB3F552917ADC000ADD7DF /* GroomerLocation.swift in Sources */,
 				E0BB3F3B29162EC500ADD7DF /* PetvelyApp.swift in Sources */,
+				E0BB3F5129164C4B00ADD7DF /* GroomerDetailView.swift in Sources */,
 				E0BB3F4D29162F3E00ADD7DF /* ViewExtention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
